@@ -120,10 +120,10 @@ body{
     color: red;
     margin-right: 100px;
     margin-left: 50px;
-    animation-name: colorChanger;
+    /* animation-name: colorChanger;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation-delay: 1s; */
   }
   .it{
     padding: 0 10px;
