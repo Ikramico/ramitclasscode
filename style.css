@@ -152,7 +152,7 @@ body{
   @keyframes colorChanger {
     0%{
       color: red;
-      background-color: #000;
+      background-color: #000000;
       padding: 10px;
     }
     25%{
@@ -175,4 +175,36 @@ body{
       background-color: #000;
       padding: 20px;
     }
+  }
+  .bar{
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .logo{
+      font-size: 20px;
+      margin: 5px 10px;
+    }
+    .items{
+      display: none;
+    }
+    .ico{
+      padding: 0px;
+    }
+    .menu-icons{
+      margin: 0;
+    }
+    .bar{
+      display: block;
+    }
+    .ba{
+      color: white;
+    }
+    .menu{
+      background-color: #000;
+    }
+    .menu-items{
+      display: none;
+    }
+    
   }
